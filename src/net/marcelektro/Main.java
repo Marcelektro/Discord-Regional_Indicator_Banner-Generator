@@ -38,8 +38,14 @@ public class Main {
      */
     public static void main(String... args) {
 
+        System.out.println("--------------------------------------------");
+        System.out.println("Welcome to RegionalIndicator Generator!");
+        System.out.println("I like anime and cats UwU =(^-^)=");
+        System.out.println("--------------------------------------------");
+
         while (true) { // Beautiful!
             System.out.println("Enter a text, so it can become a nice banner!");
+            System.out.print("> ");
 
             String input = new Scanner(System.in).nextLine();
             String result = makeRegionalText(input);
